@@ -21,13 +21,13 @@ public class wsAITest {
 	@Before
 	public void setUp() throws Exception {
 		// use firefox browser for this test
-		// System.setProperty("webdriver.gecko.driver","C:\\Users\\wangx\\geckodriver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\wangx\\geckodriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		baseUrl = "https://www.google.ca/";
 	}
 
 	@Test
-	public void testAItestFinal() throws Exception {
+	public void testwsAITest() throws Exception {
 		// open google web home page
 		driver.get("https://www.google.ca/");
 		// wait until the page elements are all loaded
